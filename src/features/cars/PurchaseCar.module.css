@@ -1,0 +1,30 @@
+.header {
+    display: inline-block;
+    margin-bottom: 1em;
+}
+
+.timer {
+    float: right;
+}
+
+.purchaseCarForm {
+    background-color: darkgray;
+    border-radius: 5px;
+    padding: 1em;
+}
+
+.formPart {
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 1em;
+    width: fit-content;
+    margin-bottom: 2em;
+}
+
+.formPart > div {
+    margin-bottom: 1em;
+}
+
+.formPart > div:last-of-type {
+    margin-bottom: auto;
+}

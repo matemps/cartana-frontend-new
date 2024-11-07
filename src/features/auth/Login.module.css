@@ -1,0 +1,33 @@
+.header {
+    margin-bottom: 1em;
+}
+
+.loginForm {
+    width: fit-content;
+    background-color: darkgray;
+    border-radius: 5px;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.err {
+    margin-bottom: 1em;
+    border-radius: 5px;
+    padding: 1em;
+    background-color: lightgray;
+}
+
+.fields {
+    border-radius: 5px;
+    padding: 1em;
+    background-color: lightgray;
+}
+
+.fields div {
+    margin-bottom: 1em;
+}
+
+.loginButton {
+    display: block;
+    margin: auto;
+}

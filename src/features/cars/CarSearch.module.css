@@ -1,0 +1,103 @@
+.header {
+    margin-bottom: 2em;
+}
+
+/* search form */
+
+.carSearchForm {
+    margin-bottom: 2em;
+}
+
+.errFields {
+    margin-bottom: 2em;
+    padding: 1em;
+    border-radius: 5px;
+    background-color: darkgray;
+}
+
+.search {
+    width: fit-content;
+    border-radius: 5px;
+    padding: 1em;
+    background-color: darkgray;
+}
+
+.search > div {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 1em;
+    background-color: lightgray;
+    vertical-align: top;
+}
+
+@media screen and (max-width: 989px) {
+    .search > div {
+        margin-bottom: 1em;
+    }
+}
+
+.search > div:first-of-type {
+    margin-right: 1em;
+}
+
+.search > div > div {
+    margin-bottom: 1em;
+}
+
+.submit {
+    margin-top: 1em;
+    display: block;
+}
+
+/* results */
+
+.results {
+    border-radius: 5px;
+    padding: 1em;
+    background-color: darkgray;
+    margin-bottom: 2em;
+    list-style-type: none;
+}
+
+.car {
+    width: fit-content;
+    padding: 1em;
+    background-color: lightgray;
+    border-radius: 5px;
+    margin-bottom: 1.5em;
+}
+
+.car h3 {
+    margin-bottom: 0.5em;
+}
+
+/* pagination */
+
+.pagination {
+    width: fit-content;
+    margin: auto;
+    list-style-type: none;
+}
+
+.pageItem {
+    display: inline;
+    margin-right: 0.25em;
+}
+
+.pageItem a {
+    color: blue;
+}
+
+.pageItem a:hover {
+    cursor: pointer;
+}
+
+.pageItem a[aria-disabled="true"] {
+    opacity: 0.25;
+    cursor: auto;
+}
+
+.pageItem a[aria-current="page"] {
+    color: purple;
+    cursor: auto;
+}

@@ -1,0 +1,32 @@
+.header {
+    margin-bottom: 1em;
+}
+
+.registerForm {
+    width: fit-content;
+    background-color: darkgray;
+    border-radius: 5px;
+    padding: 1em;
+}
+
+.status {
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.fields {
+    border-radius: 5px;
+    padding: 1em;
+    background-color: lightgray;
+}
+
+.fields div {
+    margin-bottom: 1em;
+}
+
+.registerButton {
+    display: block;
+    margin: auto;
+}

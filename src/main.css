@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* VARIABLES */
+
+:root {
+    /* COLORS */
+    --ERROR: firebrick;
+}
+
+/* UTILITY CLASSES */
+.errmsg {
+    color: var(--ERROR);
+}
+
+/* || GENERAL STYLES */
+
+html {
+    background-image: url('./assets/background.jpg');
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+#root {
+    width: 80%;
+    margin: auto;
+}
+
+main {
+    background-color: lightgray;
+    min-width: fit-content;
+    margin-bottom: 1.5em;
+    padding: 1.5em;
+    border-radius: 5px;
+}
+
+/* || HEADER */
+
+.master-header {
+    background-color: lightgray;
+    padding: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    border-radius: 5px;
+}
+
+.master-header nav {
+    margin-top: 1em;
+}
+
+.master-header nav ul {
+    list-style-type: none;
+}
+
+.master-header nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+.master-header nav ul li:first-of-type {
+    margin-left: 1em;
+}
+
+#cartana-logo {
+    max-height: 75px;
+    min-height: 30px;
+}
+
+/* || FOOTER */
+
+footer {
+    background-color: lightgray;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border-radius: 5px;
+}

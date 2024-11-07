@@ -1,0 +1,17 @@
+.header {
+    display: inline-block;
+    margin-bottom: 1em;
+}
+
+.reserveCard {
+    float: right;
+}
+
+.reservePurchaseButton {
+    background-color: rgb(236, 94, 94);
+    border-radius: 5px;
+    padding: 0.25em;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+}
